@@ -1,10 +1,10 @@
 
 
 #!/bin/bash
-
+#cd ..
 source env/bin/activate
 
-#cd /var/lib/jenkins/workspace/django-cicd/
+#cd django-cicd/
 echo "working diewsteroy is ##################################"
 echo "$PWD"
 python manage.py makemigrations
