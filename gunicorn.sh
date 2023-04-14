@@ -1,4 +1,4 @@
-source bin/env/activate
+
 
 #!/bin/bash
 
