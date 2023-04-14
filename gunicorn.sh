@@ -7,8 +7,8 @@ source env/bin/activate
 #cd django-cicd/
 echo "working diewsteroy is ##################################"
 echo "$PWD"
-python manage.py makemigrations
-python manage.py migrate
+python3.10 manage.py makemigrations
+python3.10 manage.py migrate
 #python manage.py collectstatic -- no-input
 
 echo "Migrations done"
