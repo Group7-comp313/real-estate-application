@@ -132,7 +132,7 @@ STATIC_URL = 'static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR,'st/static'),
                     ]
 #meadia Setting
-MEDIA_ROOT = os.path.join(BASE_DIR,'media')
+MEDIA_ROOT = os.path.join(BASE_DIR,'st/media')
 MEDIA_URL = '/media/'
 #for  Messages in viewfunction
 
